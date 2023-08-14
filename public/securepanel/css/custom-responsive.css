@@ -1,0 +1,601 @@
+@media (max-width: 1540px) {
+
+    /* task dashboard start */
+    .task-header {
+        margin-bottom: -9px;
+    }
+
+    .task-header .task-item ul li a {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .task-header .task-status ul li a {
+        padding: 10px 20px;
+    }
+
+    /* task dashboard end */
+
+}
+
+@media (max-width: 1365px) {
+
+    /* task dashboard start */
+    .task-header .task-filter button {
+        font-size: 16px;
+        padding: 10px 20px;
+    }
+
+    .task-header .task-status ul li a,
+    .task-header .task-display select {
+        font-size: 14px;
+    }
+
+    .task-table table {
+        min-width: 1200px;
+    }
+
+    /* task dashboard end */
+
+    .tablearea table {
+        min-width: 1200px;
+    }
+
+}
+
+@media (max-width: 1279px) {
+
+    /* task dashboard start */
+    .task-table table tr th {
+        font-size: 15px;
+    }
+
+    .task-header .task-item ul li a {
+        padding: 13px 10px;
+        font-size: 13px;
+    }
+
+    .task-header .task-filter button {
+        font-size: 14px;
+        padding: 5px 10px;
+    }
+
+    .task-header .task-status ul li a {
+        padding: 5px 10px;
+    }
+
+    .task-header .task-filter {
+        padding: 0 10px;
+    }
+
+    .task-header .task-filter button .icon {
+        margin-right: 5px;
+    }
+
+    .task-header .task-display {
+        padding-left: 10px;
+    }
+
+    .task-header .task-display select {
+        background: #E5EAFC url(../images/icon-down-arrow.svg) no-repeat calc(100% - 10px) 13px;
+        padding: 7px 30px 10px 10px;
+        font-size: 13px;
+        line-height: 20px;
+    }
+
+    ul.action-list li img {
+        min-width: 20px;
+    }
+
+
+    .task-table table thead tr th .up-down {
+        margin: 2px 0 0 5px;
+    }
+
+    /* task dashboard end */
+
+}
+
+@media (max-width: 1199px) {
+    .dashboard-left-row .col {
+        width: 100%;
+    }
+
+    /* create a task page start */
+    .task-form {
+        padding: 0;
+    }
+
+    .task-form .label-item {
+        font-size: 14px;
+        font-weight: 400;
+    }
+
+    .task-form input[type="text"],
+    .task-form select,
+    .task-form textarea {
+        font-size: 14px;
+    }
+
+    /* create a task page end */
+}
+
+@media (max-width: 1023px) {
+
+    /* task dashboard start */
+    .task-header .task-item ul li a,
+    .task-header .task-status ul li a {
+        font-size: 12px;
+    }
+
+    /* task dashboard end */
+
+}
+
+
+@media (max-width: 991px) {
+    .leftPanel {
+        width: 100%;
+        left: -1000px;
+    }
+
+    .slideclose {
+        width: 100%;
+        left: 0;
+    }
+
+    .mobilenavIcon {
+        display: block;
+    }
+
+    .leftPanel {
+        background-color: #fff;
+    }
+
+    .topnav {
+        padding: 20px 25px;
+    }
+
+    .topnav ul li a {
+        color: #424242;
+    }
+
+    .spanClass {
+        opacity: 1;
+    }
+
+    .createArea ul li a {
+        color: #424242;
+    }
+
+    .desktopImg {
+        display: none;
+    }
+
+    .mobileImg {
+        display: block;
+    }
+
+    .desktopCross {
+        display: none;
+    }
+
+    .mobileCross {
+        display: block;
+    }
+
+    .navIcon {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .navIcon.mobilenavIcon {
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .headerArea {
+        margin-left: 0;
+        padding: 0 15px;
+    }
+
+    .headerItem {
+        justify-content: space-between;
+    }
+
+    .navIcon {
+        padding-left: 0;
+    }
+
+    .rightItem {
+        width: 116px;
+    }
+
+    .rightPanel {
+        margin-left: 0;
+        padding: 40px 15px;
+
+    }
+
+    .desktopview {
+        display: none;
+    }
+
+    .mobileview {
+        display: block;
+    }
+
+    .headingArea h1 {
+        color: #fff;
+    }
+
+    .subHeading {
+        color: #fff;
+        opacity: 0.54;
+    }
+
+    .headingArea {
+        padding-bottom: 40px;
+    }
+
+    .dashboard-home {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .dashboard-left {
+        width: 100%;
+    }
+
+    .dashboard-right {
+        width: 100%;
+    }
+
+    .dashboard-left-row .col {
+        width: 100%;
+    }
+
+    .dashboard-right {
+        padding-left: 0;
+    }
+
+    .serviceDesktop {
+        display: none;
+    }
+
+    .serviceMobile {
+        display: block;
+    }
+
+    #agendaService .col-sub {
+        width: 100%;
+    }
+
+    /* .dashboard-left-row .col{
+        padding-right: 0;
+    } */
+
+    #taskService .col-sub {
+        width: 100%;
+    }
+
+    #leadService .col-sub {
+        width: 100%;
+    }
+
+    #opportunity .col-sub {
+        width: 100%;
+    }
+
+    #opportunity .col-sub {
+        width: 100%;
+    }
+
+    /* .dashboard-left-row{
+        display: none;
+    } */
+
+    .nomobileview {
+        display: none;
+    }
+
+    /* create a task page start */
+    .task-form .form-row .col {
+        padding: 0 20px 30px;
+        width: 100%;
+    }
+
+    .task-form .label-item {
+        width: 100%;
+        padding: 0 0 10px;
+    }
+
+    .task-form .input-item {
+        width: 100%;
+    }
+
+    .task-form .form-row.task-title {
+        flex-direction: column-reverse;
+    }
+
+    .share-list ul li {
+        padding-left: 20px;
+    }
+
+    .task-form .form-row .col.share-list {
+        padding-bottom: 0;
+    }
+
+    .share-list ul {
+        margin-bottom: -40px;
+    }
+
+    .task-form .form-row.deadline .col {
+        width: 50%;
+    }
+
+    .task-form input[type="submit"] {
+        width: 200px;
+    }
+
+    .task-form input.calendar {
+        background: url(../images/icon-calendar.svg) no-repeat 0 3px;
+        padding-right: 0px;
+        padding-left: 30px;
+    }
+
+    /* create a task page end */
+
+    /* task dashboard start */
+    .task-dashboard.mobileview h2 {
+        font-weight: 600;
+        font-size: 21px;
+        line-height: 32px;
+        text-align: center;
+        color: #2E3A59;
+        margin: 0;
+        padding: 0 0 20px;
+    }
+
+    .task-dashboard.mobileview h3 {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        color: #000;
+        margin: 0;
+        padding: 0 0 15px;
+    }
+
+    .task-dashboard.mobileview .task-item {
+        padding-bottom: 20px;
+    }
+
+    .task-dashboard.mobileview .task-item ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        margin: 0 -4px;
+    }
+
+    .task-dashboard.mobileview .task-item ul li {
+        padding: 0 4px;
+        width: 50%;
+    }
+
+    .task-dashboard.mobileview .task-item ul li a {
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 18px;
+        text-align: center;
+        color: #242736;
+        display: block;
+        padding: 12px;
+        background-color: #E5EAFC;
+        border-radius: 10px 10px 0 0;
+    }
+
+    .task-dashboard.mobileview .task-item ul li.active a {
+        background-color: #3D5BFF;
+        color: #F2F5FF;
+    }
+
+    .task-dashboard.mobileview .task-status {
+        padding: 0 0 20px;
+    }
+
+    .task-dashboard.mobileview .task-status ul {
+        list-style: none;
+        margin: 0 -5px;
+        padding: 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .task-dashboard.mobileview .task-status ul li {
+        padding: 0 5px;
+    }
+
+    .task-dashboard.mobileview .task-status ul li a {
+        font-size: 12px;
+        line-height: 18px;
+        text-align: center;
+        color: #242736;
+        display: block;
+        border-bottom: 1px solid #fff;
+    }
+
+    .task-dashboard.mobileview .task-status ul li.active a {
+        color: #3D5BFF;
+        border-bottom: 1px solid #3D5BFF;
+    }
+
+    .task-dashboard.mobileview .task-status ul li span.star {
+        width: 12px;
+        height: 12px;
+        background: url(../images/action-star.svg) no-repeat;
+        background-size: 100%;
+        display: inline-block;
+        margin-right: 5px;
+    }
+
+
+    .task-dashboard.mobileview .task-filter button {
+        border: 0;
+        background-color: #E5EAFC;
+        padding: 10px 20px;
+        color: #242736;
+        font-size: 12px;
+        line-height: 18px;
+        border-radius: 100px;
+        white-space: nowrap;
+        cursor: pointer;
+    }
+
+    .task-dashboard.mobileview .task-filter button .icon {
+        width: 12px;
+        height: 12px;
+        background: url(../images/icon-filter.svg) no-repeat;
+        background-size: 100%;
+        display: inline-block;
+        margin-right: 10px;
+    }
+
+    .task-list .item-box {
+        background-color: #F2F5FF;
+        padding: 15px;
+        border-radius: 10px;
+        margin-bottom: 20px;
+    }
+
+    .task-list .top-part {
+        display: flex;
+        padding-bottom: 15px;
+    }
+
+    .task-list .top-part .left {
+        width: 70%;
+    }
+
+    .task-list .top-part .left .title {
+        font-size: 14px;
+        line-height: 21px;
+        color: #2A2A2F;
+        position: relative;
+        padding-left: 15px;
+    }
+
+    .task-list .top-part .left .up-down {
+        position: absolute;
+        left: 0;
+        top: 2px;
+    }
+
+    .task-list .top-part .left .client {
+        font-size: 12px;
+        line-height: 18px;
+        color: #BFC0C9;
+        padding-left: 15px;
+    }
+
+    .task-list .top-part .right {
+        width: 30%;
+    }
+
+    .task-list .top-part .right ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+    }
+
+    .task-list .top-part .right ul li {
+        padding-left: 15px;
+    }
+
+    .task-list .bottom-part ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .task-list .bottom-part ul li {
+        padding: 0 5px;
+        display: flex;
+        align-items: center;
+    }
+
+    .task-list .bottom-part ul li.date {
+        font-size: 12px;
+        color: #2A2A2F;
+    }
+
+    .task-list .bottom-part ul li.date img {
+        margin-right: 10px;
+        width: 15px;
+    }
+
+    .task-list .bottom-part ul li img {
+        display: block;
+    }
+
+    /* task dashboard end */
+
+    .custotabArea ul li {
+        width: 100%;
+        margin-right: 10px;
+    }
+
+    .custotabArea ul li:last-child {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .custotabArea ul li a {
+        width: 100%;
+        text-align: center;
+    }
+
+    .custotabArea {
+        margin: 0;
+        padding: 0;
+        border-bottom: 1px solid #3D5BFF;
+    }
+
+    /* create agenda start */
+    .contactSearchformAre{
+        margin-left: 0;
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    /* create agenda end */
+
+    /* agenda details start */
+    .shareArea{
+        width: auto;
+    }
+    /* agenda details end */
+}
+
+
+@media (max-width: 767px) {
+
+    /* create a task page start */
+    .task-form .form-row.deadline .col {
+        width: 100%;
+    }
+
+    .task-form .form-row .col {
+        padding-bottom: 15px;
+    }
+
+    /* create a task page end */
+
+}
